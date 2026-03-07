@@ -1,0 +1,55 @@
+/* Cssをリセットする */
+@import url('normalize.css');
+
+body{
+    background-color: #eee;
+}
+
+/* 余白 */
+main, footer header
+{
+    padding: 20px 30px;
+}
+
+h1 
+{
+    font-size: large;
+}
+
+p
+{
+    color: dimgray;
+}
+
+header
+{
+    background-color: #fff;
+    padding: 100px 300px;
+}
+
+div{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-size: small;
+}
+
+p{
+    font-size: large;
+}
+
+.center{
+    text-align: center;
+}
+
+.textSmall{
+    font-size: .8em;
+}
