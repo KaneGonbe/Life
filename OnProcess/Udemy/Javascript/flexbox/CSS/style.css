@@ -19,9 +19,8 @@ nav h1{
 }
 
 a:not(.logo):hover{
-    color: #646cff;
+    color: blue;
     text-decoration: underline;
-    background-color: blue;
 }
 
 

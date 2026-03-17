@@ -12,10 +12,10 @@ description: "トレンドネタ収集"
 ### 0. ユーザープロファイル読み込み
 
 `CLAUDE.md` を読み込み、以下の興味領域を理解する：
-- AI（開発とセキュリティへの応用）
-- Robotics(生活支援向けのロボット技術、VLAM等の認識技術関連)
+- AI × Robotics（VLA/Vision-Language-Action、LLMを活用したロボット制御・推論）
+- 具身知能（Embodied AI）・生活支援ロボット・産業ロボットへの応用
 - OSS開発/コミュニティ
-- 個人開発(VLAM関係の学習モデル、医療IT)/SaaS運営（Technical SEO、グロースハック、収益化）
+- 個人開発(VLA/LLMロボティクス関連の学習モデル、医療IT)/SaaS運営（Technical SEO、グロースハック、収益化）
 - キャリア/人生哲学（経済的自由、外資転職、医療IT、Build in Public）
 - JavaScript/TypeScript技術スタック
 
@@ -39,9 +39,9 @@ description: "トレンドネタ収集"
 - **元記事URLではなくHNのコメントページURLを使用すること**（コメントも確認できるようにするため）
 - **タイトルは日本語に翻訳して出力**
 
-**セキュリティ（追加ソース）**
-- https://www.aikido.dev/blog - セキュリティ研究開発者向けのセキュリティ情報
-- https://www.wiz.io/blog - クラウドセキュリティ
+**ロボティクス/VLA（追加ソース）**
+- https://www.roboticstoday.com/ - ロボティクス最新ニュース
+- https://bdtechtalks.com/ - AIとロボティクスの深掘り技術記事
 - 最新1-3記事をチェックし、興味度★★★のものがあれば注目トピックに含める
 
 **Reddit（13サブレッド）**
@@ -65,9 +65,9 @@ curl -s -H "User-Agent: neta-trend-collector/1.0 (trend analysis tool)" \
 - `data.children[].data.num_comments`: コメント数
 - `data.children[].data.permalink`: パス（`https://www.reddit.com` + permalink で完全URL）
 
-セキュリティ系（2サブレッド）:
-- r/netsec
-- r/cybersecurity
+ロボティクス系（2サブレッド）:
+- r/robotics
+- r/MachineLearning
 
 AI系（3サブレッド）:
 - r/OpenAI
@@ -96,8 +96,8 @@ OSS/個人開発系（4サブレッド）:
 各記事を興味領域と照合し、関連度を評価
 高関連度の記事を「注目トピック」の最上位に配置
 特に注目すべきトピック：
-AI関連（開発ツール、セキュリティ、倫理）
-セキュリティ関連（脆弱性、攻撃手法、防御策）
+AI × Robotics関連（VLA、LLMロボット制御、具身知能、マニピュレーション）
+ロボティクス関連（生活支援ロボット、産業ロボット、自律移動）
 OSS/個人開発関連（成功事例、マーケティング、収益化）
 キャリア関連（外資転職、リモートワーク、副業）
 JavaScript/TypeScript関連（新技術、ツール、フレームワーク）
@@ -115,7 +115,7 @@ Hacker News
 議論を呼んでいるトピック（ポイント数が高い）
 Reddit（13サブレッド）
 
-セキュリティ系：最新の脅威、実践的な攻撃・防御手法
+ロボティクス系：VLA・LLMロボット制御の最新研究・実装
 AI系：OpenAI、ローカルLLM、Claude Code関連
 OSS/個人開発系：OSSプロジェクト、個人開発、Web開発
 キャリア/実践系：キャリア、生産性
@@ -138,7 +138,7 @@ OSS/個人開発系：OSSプロジェクト、個人開発、Web開発
 | [タイトル](元記事URL) | XXX users | ★★★/★★/★ | AI/開発/キャリア等 | 発信に活用できるポイント |
 
 **興味度の定義**:
-- ★★★: 興味領域に直接関連（AI×セキュリティ、OSS、個人開発、キャリアなど）
+- ★★★: 興味領域に直接関連（AI×ロボティクス、VLA、LLMロボット制御、OSS、個人開発、キャリアなど）
 - ★★: 間接的に関連（技術トレンド全般、エンジニアリング文化）
 - ★: 一般的なIT/技術ニュース
 
@@ -170,8 +170,8 @@ OSS/個人開発系：OSSプロジェクト、個人開発、Web開発
 
 ### カテゴリ別エントリー
 
-#### セキュリティ系
-1. [タイトル](RedditコメントページURL) (XXX ups, XXX comments) - r/netsec - 概要
+#### ロボティクス系
+1. [タイトル](RedditコメントページURL) (XXX ups, XXX comments) - r/robotics - 概要
 2. ...
 
 #### AI系
